@@ -315,8 +315,8 @@ public class AtendimentoView extends javax.swing.JFrame {
                 jLabelSenha.setText(String.valueOf(atModel.getId()));
                 jLabelNome.setText(atModel.getNome());
             }else{
-                jLabelSenha.setText("Fila vazia");
-                jLabelNome.setText("Pegue sua senha");
+                jLabelSenha.setText("Ninguém na fila");
+                jLabelNome.setText("Cadastre o cliente");
             }
         } catch (SQLException ex) {
             Logger.getLogger(AtendimentoView.class.getName()).log(Level.SEVERE, null, ex);
